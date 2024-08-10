@@ -1,0 +1,11 @@
+# テスト
+GET http://localhost:18023/customer?hoge=foo
+
+### 
+# テスト
+PUT http://localhost:18023/customer/123
+
+{
+    "bar": "buu",
+    "bii": "bee"
+}

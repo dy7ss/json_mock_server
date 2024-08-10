@@ -1,0 +1,12 @@
+{
+    "port": 18023,
+    "response_files": {
+        "/customer": {
+            "GET": "data.json"
+        },
+        "/customer/123": {
+            "PUT": "data.json",
+            "GET": "data.json"
+        }
+    }
+}
